@@ -4,7 +4,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config.from_object('config')
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://action@localhost/project1_2'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ktnxashaxaxmqu:w7VS3xc-W0rKuRaCTZacxnmqwz@ec2-54-227-250-148.compute-1.amazonaws.com:5432/d94lkdg4cl2h6m'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ivezcfmrudhirt:jhNai6vB3aFIYkenXB3cREcKqn@ec2-107-21-229-87.compute-1.amazonaws.com:5432/da6pgt9pupus5n'
 db = SQLAlchemy(app)
 
 from app import views, models
