@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block js %}
+{% endblock %}
+
+
+{% block main %}
+
+<h1>Homepage : Project 1 and 2</h1>
+<hr />
+<p>Click <a href="/profile">'/profile'</a> to add new profile</p>
+<br>
+<p>Click <a href="/profile/1">'/profile/1'</a> to view profile of user '1'.
+<br>You can change the number in the address bar after to view other profiles. (Valid profile  numbers only)</p>
+<br>
+<br>
+<p>Click <a href="/profiles">'/profiles'</a> to view a list of all users.<p>
+<hr />
+<br>
+<p>The '/profile/userid' and '/profiles' routes have also been set up to return JSON only when given a request with header 'Content-type=application/json'.</p>
+{% endblock %}

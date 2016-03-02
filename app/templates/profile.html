@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+
+{% block js %}
+{% endblock %}
+
+
+{% block main %}
+<div class="page">
+  <div class="head">
+    <img src="/static/img/silhouette.jpg">
+    <div class="profile_name">
+      <h1>Michael Green</h1>
+    </div>
+  </div>
+  <div class="p_datebox content">
+    <p>{{date}}</p>
+  </div>
+  <div class="p_content content">
+    <p>
+      Username: Michael<br />
+      ID: 620076685<br />
+      Sex: Male<br />
+      Age: 25<br />
+      Highest Score: 5 000<br />
+      TDollars: 100 000<br />
+    </p>
+  </div>
+</div>
+{% endblock %}
